@@ -1,5 +1,5 @@
 % Name: Ayooluwa OWOLABI and Std#: 101237575 
-% ELEC 4700A  Project Milestone1
+% ELEC 4700A  Project Milestone2
 %Set default plot appearance and visualization settings
 set(0, 'defaultaxesfontsize',20) % Sets the default font size of the axes
 set(0, 'DefaultFigureWindowStyle','docked') % Sets the default Figure Window style to be docked 
