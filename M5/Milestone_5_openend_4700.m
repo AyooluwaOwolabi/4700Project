@@ -1,4 +1,5 @@
 % Name: Ayooluwa Owolabi and Student#: 101237575
+% ELEC 4700 Winter 2025 semester
 % Milestone 5: Open-ended Milestone for First Project Report 
 
 clc; 
@@ -12,11 +13,11 @@ set(0, 'DefaultLineLineWidth',2) % Sets the Default Line Width; i.e. from 0 to 2
 set(0, 'DefaultaxesLineWidth',2) % Sets the Default Line Width of the axes
 
 % Initializing Fundamental constants
-c_c = 299792458; % Speed of light (m/s)
+c_c = 3.0e8; % speed of light for the TWM wave
 n_g = 3.5; % Group index of the medium
 vg = c_c/n_g*1e2; % TWM Group velocity (cm/s)
 L = 1000e-6*1e2; % Medium length (cm)
-Lambda = 1550e-9; % Wavelength of light
+Lambda = 1550e-9; % Wavelength of light 
 Nz = 500; % Spatial points
 dz = L/(Nz-1); % Spatial step
 dt = dz/vg; % Time step
