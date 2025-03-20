@@ -1,4 +1,4 @@
-function w = wspace_M6(t,nt);
+function w = wspace_M7(t,nt);
 
 %{This function constructs a linealy-spaced vector of angular frequencies 
 % that correspond to the points in an FFT spectrum.
